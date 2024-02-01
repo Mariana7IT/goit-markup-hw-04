@@ -220,7 +220,7 @@ img {
     gap: 24px;
 }
 
-.features-item-element{
+.features-icon-container{
     display: flex;
     width: 264px;
     height: 112px;
@@ -242,6 +242,8 @@ img {
 .features-item {
     width:calc((100% - 72px) / 4); 
 }
+
+
 
 .features-subtitle {
     color: #2E2F42;
@@ -447,6 +449,21 @@ img {
     
 }
 
+.footer-container-2{
+margin-left: 120px;
+}
+.footer-text-2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 9.4; 
+    letter-spacing: 0.02em;
+    color: white;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-self: stretch;
+    max-width: 208x;
+}
 
 .icon-list {
     display: flex;
