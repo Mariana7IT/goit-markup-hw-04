@@ -135,13 +135,6 @@ img {
     background-color: #2E2F42;
     width: 100%;
     height: 600px;
-
-
-}
-
-.hero-container{
-    display: block;
-    align-items: center
     background-image:
     linear-gradient(
     rgba(46, 47, 66, 0.7),
@@ -150,6 +143,13 @@ img {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+
+}
+
+.hero-container{
+    display: block;
+    align-items: center
+    
 
 }
 
