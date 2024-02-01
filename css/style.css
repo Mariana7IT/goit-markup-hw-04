@@ -85,7 +85,7 @@ img {
     display: block;
     letter-spacing: 0.02em;
     padding: 24px 0;
-    
+    transition: color 250ms;
 }
 
 .nav-list{
@@ -97,6 +97,22 @@ img {
 .nav-link:focus {
     color: #404bbf;
     
+}
+
+.current {
+position: relative;
+color: #404BBF;
+}
+
+.current ::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1;
+    background-color: #404BBF;
+    border-radius: 2px;
+    height: 4px;
+    width: 100%;
 }
 
 .address {
@@ -118,6 +134,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link:hover,
@@ -321,6 +338,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    padding-bottom: 22.77px;
 }
 
 .team-icon-list {
