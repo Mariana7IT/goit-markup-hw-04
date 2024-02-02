@@ -91,6 +91,7 @@ img {
 .nav-list{
     display: flex;
     gap: 40px;
+    
 }
 
 .nav-link:hover,
@@ -468,8 +469,12 @@ color: #404BBF;
 }
 
 .footer-container-2{
-margin-left: 120px;
+display: flex;
+align-items: baseline;
+margin-right: 80px;
+margin-right: 120px;
 }
+
 .footer-text-2 {
     font-weight: 500;
     font-size: 16px;
@@ -480,7 +485,8 @@ margin-left: 120px;
     display: flex;
     justify-content: center;
     align-self: stretch;
-    max-width: 208x;
+    max-width: 208px;
+    margin-bottom: 16px; 
 }
 
 .icon-list {
@@ -508,3 +514,27 @@ margin-left: 120px;
     fill: #F4F4FD; 
     stroke: #F4F4FD ;
 }
+
+
+
+
+
+current2 {
+    position: relative;
+    color: #404BBF;
+}
+    
+    
+    
+    .current2
+    ::after
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -1;
+        background-color: #404BBF;
+        border-radius: 2px;
+        height: 4px;
+        width: 100%;
+    
+    
