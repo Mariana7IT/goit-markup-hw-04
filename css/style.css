@@ -521,7 +521,7 @@ overflow: hidden
     
 }
 
-.footer-container-2{
+.footer-container2{
 display: inline-block;
 align-items: baseline;
 margin-right: 80px;
@@ -534,7 +534,7 @@ margin-bottom: 16px;
 
 }
 
-.footer-text-2 {
+.footer-text2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5; 
