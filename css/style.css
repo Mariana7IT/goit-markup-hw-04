@@ -492,7 +492,7 @@ overflow: hidden
 .footer {
     background: #2E2F42;
     padding: 100px 0;
-    
+    margin-right: 120px;
 }
 
 .footer-container {
@@ -512,7 +512,8 @@ overflow: hidden
     text-transform: uppercase;
     flex-shrink: 0;
     display: inline-block;
-    margin-bottom: 16px; 
+    margin-bottom: 16px;
+    margin-right: 120px; 
 }
 
 .footer-logo-part{
@@ -531,7 +532,7 @@ overflow: hidden
     
 }
 
-.footer-container2 {
+.footer-container-two {
 display: inline-block;
 align-items: baseline;
 margin-right: 80px;
