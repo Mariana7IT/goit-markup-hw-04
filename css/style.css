@@ -523,6 +523,7 @@ overflow: hidden
 
 .footer-container2{
 display: inline-block;
+color: white;
 align-items: baseline;
 margin-right: 80px;
 margin-right: 120px;
@@ -530,9 +531,7 @@ flex-shrink: 0;
 margin-bottom: 16px;
 }
 
-.footer-box{
 
-}
 
 .footer-text2 {
     font-weight: 500;
@@ -553,6 +552,8 @@ margin-bottom: 16px;
     align-items: flex-start;
     gap: 16px;
 }
+
+
 .footer-box-icon{
 display: inline-flex;
 }
