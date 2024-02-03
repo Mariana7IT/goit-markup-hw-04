@@ -428,6 +428,8 @@ color: #404BBF;
 .portfolio-img {
    display: block; 
 }
+
+
 .portfolio-subtitle {
     color: #2E2F42;
     font-size: 20px;
@@ -447,6 +449,7 @@ color: #404BBF;
     border: #E7E9FC;
     align-self: stretch;
 }
+
 
 .cover-portfolio-container {
 position: absolute;
