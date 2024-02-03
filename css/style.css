@@ -553,6 +553,9 @@ margin-bottom: 16px;
     align-items: flex-start;
     gap: 16px;
 }
+.footer-box-icon{
+display: inline-flex;
+}
 
 .icon-item {
     width: 40px;
@@ -560,9 +563,7 @@ margin-bottom: 16px;
     transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-box-icon{
 
-}
 
 .icon-link {
     width: 100%;
