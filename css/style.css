@@ -569,5 +569,10 @@ margin-bottom: 16px;
     stroke: #F4F4FD ;
 }
 
+.icon-link current2 :hover,
+.icon-link current2 :focus{
+    background-color: #31d0aa; 
+    background-color: #31d0aa;
+ }
 
 
