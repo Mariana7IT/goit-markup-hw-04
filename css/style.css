@@ -499,8 +499,8 @@ overflow: hidden
     display: flex;
     align-items: baseline;
     margin-right: 120px;
+    
 }
-
 
 .footer-logo {
     color: #4D5AE5;
@@ -527,6 +527,7 @@ overflow: hidden
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+    padding-top: 16px;
     
 }
 
@@ -538,8 +539,6 @@ margin-right: 120px;
 flex-shrink: 0;
 margin-bottom: 16px;
 }
-
-
 
 .footer-text-two {
     font-weight: 500;
@@ -559,6 +558,7 @@ margin-bottom: 16px;
     display: flex; 
     align-items: flex-start;
     gap: 16px;
+    
 }
 
 .icon-item {
