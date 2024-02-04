@@ -37,7 +37,7 @@ img {
 
 .header{
     border-bottom: 1px solid #E7E9FC;
-    
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container {
@@ -51,7 +51,7 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+     
 }
 
 .section{
@@ -101,7 +101,6 @@ img {
 .nav-list{
     display: flex;
     gap: 40px;
-    
 }
 
 .nav-link:hover,
@@ -116,7 +115,7 @@ color: #404BBF;
 }
 
 .current ::after{
-    content: ""; 
+    content: "./index.html""; 
     width: 100%;
     position: absolute;
     left: 0;
@@ -124,7 +123,6 @@ color: #404BBF;
     background-color: #404BBF;
     border-radius: 2px;
     height: 4px;
-
 }
 
 .address {
@@ -380,7 +378,7 @@ color: #404BBF;
 .team-icon-item :hover,
 .team-icon-item :focus{
     background-color: #404bbf;
- }
+    }
 
 .team-icon-icon {
     fill: #F4F4FD; 
@@ -451,7 +449,6 @@ color: #404BBF;
     border: #E7E9FC;
     align-self: stretch;
 }
-
 
 .cover-portfolio-container {
 position: relative;
