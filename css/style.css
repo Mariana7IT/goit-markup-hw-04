@@ -384,9 +384,6 @@ color: #404BBF;
     background-color: #404bbf;
 }
 
-
-
-
 .team-icon-icon {
     fill: #F4F4FD; 
     
@@ -537,12 +534,15 @@ overflow: hidden;
 }
 
 .footer-container-two {
-display: inline-block;
-align-items: baseline;
-margin-right: 80px;
-margin-right: 120px;
-flex-shrink: 0;
-margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-right: 80px;
+    margin-right: 120px;
+    flex-shrink: 0;
+    margin-bottom: 16px;
+    align-self: stretch;
+    align-content: flex-start;
 }
 
 .footer-text-two {
@@ -553,10 +553,12 @@ margin-bottom: 16px;
     color: white;
     padding-bottom: 16px;
     display: flex;
-    justify-content: center;
+    
     align-self: stretch;
-    max-width: 208px;
-    margin-bottom: 16px; 
+    max-width: 208px; 
+    padding-bottom: 16px;
+   
+    
 }
 
 .icon-list {
@@ -564,6 +566,7 @@ margin-bottom: 16px;
     align-items: flex-start;
     gap: 16px;
     align-self: stretch;
+    padding-top: 16px;
 }
 
 .icon-item {
@@ -594,9 +597,6 @@ margin-bottom: 16px;
     background-color: #31d0aa;
 }
 
-
-
 .icon-link :focus{
     background-color: #31d0aa; 
-    background-color: #31d0aa;
 }
