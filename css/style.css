@@ -593,12 +593,14 @@ overflow: hidden;
     stroke: #F4F4FD ;
 }
 
-.icon-item :hover,
-.icon-item :focus{
+
+.icon-item:focus{
     background-color: #31d0aa; 
-    background-color: #31d0aa;
+    
 }
 
+.icon-link:hover,
 .icon-link:focus{
     background-color: #31d0aa; 
+    background-color: #31d0aa;
 }
