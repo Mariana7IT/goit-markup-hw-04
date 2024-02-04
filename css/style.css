@@ -599,6 +599,6 @@ overflow: hidden;
     background-color: #31d0aa;
 }
 
-.icon-link :focus{
+.icon-link:focus{
     background-color: #31d0aa; 
 }
