@@ -380,9 +380,10 @@ color: #404BBF;
 }
 
 
-.team-icon-link:hover,
-.team-icon-link:focus{
-    background-color: #404bbf;
+.team-icon-link:hover {
+    background-color: #404bbf; 
+}
+.team-icon-link:focus {
     background-color: #404bbf;
 }
 
