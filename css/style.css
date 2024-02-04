@@ -381,7 +381,8 @@ color: #404BBF;
 
 
 .team-icon-link:hover,
-.team-icon-link :focus{
+.team-icon-link:focus{
+    background-color: #404bbf;
     background-color: #404bbf;
 }
 
