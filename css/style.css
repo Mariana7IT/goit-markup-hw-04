@@ -544,7 +544,6 @@ overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    margin-right: 80px;
     margin-right: 120px;
     flex-shrink: 0;
     margin-bottom: 16px;
@@ -558,11 +557,11 @@ overflow: hidden;
     line-height: 1.5; 
     letter-spacing: 0.02em;
     color: white;
-    padding-bottom: 16px;
+    
     display: flex;
     align-self: stretch;
     max-width: 208px; 
-    padding-bottom: 16px;
+   
     margin-bottom: 16px; 
     
 }
@@ -606,5 +605,5 @@ overflow: hidden;
 .icon-link:hover,
 .icon-link:focus{
     background-color: #31d0aa; 
-    background-color: #31d0aa;
+    
 }
