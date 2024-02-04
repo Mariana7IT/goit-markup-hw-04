@@ -460,12 +460,13 @@ overflow: hidden;
 
 .cover-portfolio-item-text{
     top:0;
+    left: 0;
     position: absolute;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd; 
-    padding: 40 32px;
+    padding: 40px 32px;
     background-color: #4d5ae5;
     width: 100%;
     height: 100%;
@@ -480,8 +481,8 @@ overflow: hidden;
     
 }
 
-.portfolio-item :hover.cover-portfolio-item-text {
-    transform: translateY(0);
+.portfolio-item :hover .cover-portfolio-item-text {
+    transform: translateY(0%);
 }
 
 /*========FOOTER========== */
