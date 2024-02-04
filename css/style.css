@@ -116,7 +116,7 @@ position: relative;
 color: #404BBF;
 }
 
-.current ::after{
+.current::after{
     content: './index.html'; 
     width: 100%;
     position: absolute;
