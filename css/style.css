@@ -480,8 +480,8 @@ overflow: hidden;
     
 }
 
-.portfolio-item-text:hover {
-    transform: translateY(0%);
+.portfolio-item :hover.cover-portfolio-item-text {
+    transform: translateY(0);
 }
 
 /*========FOOTER========== */
