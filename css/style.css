@@ -117,7 +117,7 @@ color: #404BBF;
 }
 
 .current::after{
-    content: './index.html'; 
+    content: ''; 
     width: 100%;
     position: absolute;
     left: 0;
