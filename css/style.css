@@ -597,10 +597,7 @@ overflow: hidden;
 }
 
 
-.icon-item:focus{
-    background-color: #31d0aa; 
-    
-}
+
 
 .icon-link:hover,
 .icon-link:focus{
