@@ -534,7 +534,7 @@ overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    margin-right: 120px;
+    
     flex-shrink: 0;
     margin-bottom: 16px;
     align-self: stretch;
