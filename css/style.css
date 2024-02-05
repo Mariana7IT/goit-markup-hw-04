@@ -236,7 +236,7 @@ color: #404BBF;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    }
+}
 
 .features {
     padding: 120px 0;
@@ -323,7 +323,7 @@ color: #404BBF;
     flex-basis: calc((100% - 72px) / 4);
     gap: 24px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    }
+}
 
 .team-img { 
 }
@@ -394,7 +394,7 @@ color: #404BBF;
     text-transform: capitalize;
     display:block;
     margin-bottom: 72px;
-    }
+}
 
 .portfolio-list {
     display: flex;
@@ -493,7 +493,7 @@ overflow: hidden;
 
 .footer-container-one {
     margin-right: 120px;  
-    }
+}
 
 .footer-logo {
     color: #4D5AE5;
@@ -511,7 +511,6 @@ overflow: hidden;
 
 .footer-logo-part{
     color: #f4f4fd;
-    
 }
 
 .footer-text {
